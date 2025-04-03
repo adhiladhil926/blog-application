@@ -1,0 +1,5 @@
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - node_modules

@@ -1,0 +1,40 @@
+
+.register, .login {
+  margin: 50px auto;
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(44, 28, 28, 0.1);
+}
+
+.register h1, .login h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.register form, .login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register input, .login input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.register button, .login button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register button:hover, .login button:hover {
+  background-color: #271010;
+}
